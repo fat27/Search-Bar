@@ -40,16 +40,19 @@ body{
 .input{
     background-color: transparent;
     border: none;
-    width: 100% 
+    width: 100%;
     margin: 10px 50px;
     outline: none;
-    color: rgba(100, 100, 100,);
+    color: rgba(100, 100, 100, 1);
     transition: width 1s;
     transition-delay: 0.5s;
 }
-.active.search-bar-container{
+.search-bar-container.active {
     width: 50px;
 
+}
+.search-bar-container.active {
+    width: 300px;
 }
 
 .active .input{
@@ -57,4 +60,5 @@ body{
 }
 .active .mic-icon{
     width: 0;
+
 }
